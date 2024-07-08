@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: inherit;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+.content{
+    text-align: center;
+    border-radius: 3px solid;
+    background-color: bisque;
+}
+#one{
+   
+    border-radius: 3px solid;
+}
+.btn{
+    width: 90px;
+    height: 23px;
+    background-color: cadetblue;
+    border-color: white;
+}
+.btn:hover{
+    background-color: green;
+}
+.title{
+    text-align: center;
+    
+}
+header{
+    background-color: brown;
+}
+.item{
+    cursor: pointer;
+}
+.item:active{
+    color: coral;
+    
+}
